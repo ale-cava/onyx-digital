@@ -399,7 +399,7 @@ header{
 
 }
 
-@media screen and (max-width:375px) {
+@media screen and (max-width:768px) {
 
     .flexindex{
         display: inline-block;

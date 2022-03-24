@@ -1,0 +1,436 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+.carrousel img{
+    width: 40%;
+    height: 40%;
+}
+
+.flexsn{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+}
+
+.border{
+    border: black solid 0.3vw;
+}
+
+
+.sn{
+    border: black solid 0.3vw;
+    width: 40vw;
+}
+
+.sn p{
+    font-size: 2vw;
+}
+
+.t2{
+    font-size: 3vw;
+    text-align: left;
+    margin-left: 3vw;
+    color: black;
+} 
+
+.selectbox{
+    text-align: left;
+    margin-left: 2vw;
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+}
+
+.submit{
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 3vw;
+    margin-left: 3vw;
+    justify-content: space-between;
+}
+
+.snindex{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+}
+
+.snindex img{
+    height: 37%;
+    width: 37%;
+}
+
+.snindextxt{
+    width: 60vw;
+    border: black solid 0.4vw;
+    padding: 1vw;
+}
+
+.snindextxt{
+    font-size: 3.6vw;
+}
+
+.submit a{
+    margin-right: 5vw;
+}
+
+.submit input{
+    width: 9vw;
+    height: 4vw;
+    font-size: 2.3vw;
+}
+
+.submit p{
+    font-size: 1.7vw;
+    color: black;
+    width: 120vw;
+    text-align: left;
+}
+
+.selectbox select{
+    width: 12vw;
+    height: 3vw;
+    font-size: 2.3vw;
+}
+
+.tcarr{
+ padding-left: 5vw;
+ padding-right: 5vw;
+ padding-top: 2vw;
+ padding-bottom: 2vw;
+}
+
+.tcarr p{
+    text-align: center;
+    font-size: 1.6vw;
+    font-weight: 600;
+}
+
+.imgIndex{
+    width: 30%;
+    height: 30%;
+    display: inline;
+    margin: 0px 1vw 1vw 0px;
+    border: 0.3vw solid black;
+    transition: all 100ms ease-out;
+}
+
+.imgIndex:hover{
+    transform: scale(1.04);
+}
+
+.emphasis{
+    text-shadow: 0.2vw 0.2vw 0.3vw black;
+    color: #bc47cb;
+}
+
+
+.tmain{
+    display: flex;
+}
+
+.tmain h1 {
+    font-size: 7vw;
+    text-align: left;
+    margin-left: 3vw;
+    color: black;
+    border-right: .04em solid black;
+    animation: typing 3.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+    overflow: hidden;
+    white-space: nowrap;
+    margin: 10 auto;
+    margin-top: 1vw;
+}
+
+@keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: black; }
+  }
+
+.contact{
+    position:fixed;
+    bottom: 2vw;
+    right: 2vw;
+}
+
+.contact img{
+    width: 12vw;
+    height: 12vw;
+}
+
+.contacto{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+.form input{
+    width: 70vw;
+    height: 5vw;
+    margin: 2vw;
+}
+
+.form p{
+    color: white;
+}
+
+.picontact{
+    width: 45vw;
+}
+
+.picontact img{
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    background: linear-gradient(to bottom, #F6E8EA 26%, #45364B 0%);
+    font-family: 'Poppins', sans-serif;
+
+}
+
+a{
+    color: #bc47cb;
+    text-shadow: 0.1vw 0.1vw 0.2vw #FFFFFF;
+    
+}
+
+
+
+.anav a:hover{
+    background-color: #837476;
+    color: #FFFFFF;
+    text-shadow: black 0.1vw 0.1vw 0.2vw;
+    box-shadow: 0.3vw 0.3vw black;
+}
+
+.t1{
+    margin-left: 3vw;
+    margin-right: 3vw;
+    margin-bottom: 8.5vw;
+}
+
+.t1 p{
+    font-size: 2vw;
+    font-weight: 600;
+    color: black;
+}
+
+.vid1{
+    height: 100%;
+    width: 95%;
+}
+
+.bottomtext{
+    margin-bottom: 5vw;
+    margin-top: 1.7vw;
+    padding-left: 2vw;
+    padding-right: 2vw;
+}
+
+.bottomtext p{
+    color: darkgrey;
+    font-size: 2.5vw;
+}
+
+main{
+    margin: 0px 4.7vw 0px 4.7vw;
+    border-left: 0.4vw solid black;
+    border-bottom: 0.4vw solid black;
+    border-right: 0.4vw solid black;
+    text-align: center;
+}
+
+.flexindex{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+}
+
+
+
+footer{
+    background-color: #45364B;
+    color: #EAC8CA;
+    margin: 0px 4.7vw 4.7vw 4.7vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footerm p{
+    font-size: 3vw;
+    color: black;
+    margin-bottom: 2vw;
+}
+
+.footerm img{
+    width: 5vw;
+    height: 5vw;
+}
+
+.footimg{
+    display: flex;
+}
+
+.footimg img{
+    width: 30vw;
+    height: 30vw;
+}
+
+.footext{
+    margin-top: 3vw;
+    text-align: left;
+}
+
+.footext li{
+    font-size: 2.6vw;
+    color: black;
+}
+
+header{
+    background-color: #F6E8EA;
+    text-align:center;
+    margin: 4.7vw 4.7vw 0px 4.7vw;
+    border: 0.4vw solid black;
+    position: sticky;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 11vw;
+    top: 0px;
+    animation: hola 10s;
+}
+
+.unav{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.anav{
+    margin: 1vw;
+    transition: all 100ms ease-out;
+}
+
+.anav:hover{
+    transform: translate(0.2vw, 0.2vw);
+
+}
+
+
+
+.anav li{
+    font-size: 2vw;
+    font-weight: 1000;
+
+}
+
+.anav a{
+    border: 0.3vw solid black;
+    box-sizing: content-box;
+    padding: 0.6vw;
+    box-shadow: 0.3vw 0.3vw;
+}
+
+.logo img{
+    width: 15vw;
+    height: 15vw;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 40vw;
+    grid-gap: 1vw;
+    margin: 2vw;
+}
+
+.container div{
+    border: black solid 0.3vw;
+    height: 100%;
+    width: 100%;
+}
+
+.container img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+#abajo{
+    object-position: 0px -100px;
+}
+
+.a{
+    grid-row: span 2;
+    grid-column: span 2;
+}
+
+.b{
+    grid-row: span 2;
+}
+
+.c{
+    grid-column: span 3;
+}
+
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+
+@media screen and (max-width: 768px) {
+
+.t1 p{
+    color: black;
+}
+
+
+}
+
+@media screen and (max-width:375px) {
+
+    .flexindex{
+        display: inline-block;
+    }
+    
+    .imgIndex{
+        width: 47%;
+        margin-left: 1vw;
+    }
+    
+    #uno{
+        display: none;
+    }
+
+    .unav{
+        display: none;
+    }
+
+    .logo img{
+        width: 20vw;
+        height: 20vw;
+    }
+
+    
+}
+
+
+@media screen and (max-width:304px) {
+    
+    #dos{
+        display: none;
+    }
+
+}

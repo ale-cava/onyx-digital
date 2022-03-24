@@ -414,14 +414,6 @@ header{
         display: none;
     }
 
-    .unav{
-        display: none;
-    }
-
-    .logo img{
-        width: 20vw;
-        height: 20vw;
-    }
 
     
 }
@@ -432,5 +424,15 @@ header{
     #dos{
         display: none;
     }
+
+    .unav{
+        display: none;
+    }
+
+    .logo img{
+        width: 20vw;
+        height: 20vw;
+    }
+
 
 }

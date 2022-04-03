@@ -114,21 +114,16 @@
     font-weight: 600;
 }
 
-.animate{
-    transition: all 100ms ease-out;
-}
-
-.animate:hover{
-    transform: scale (1.04);
-}
-
 .imgIndex{
     width: 30%;
     height: 30%;
     display: inline;
     margin: 0px 1vw 1vw 0px;
-    border: 0.3vw solid black;
     transition: all 100ms ease-out;
+}
+
+.borimg{
+    border: 0.3vw solid black;
 }
 
 .imgIndex:hover{
@@ -165,6 +160,7 @@
   }
 
 .contact{
+    z-index: 1;
     position:fixed;
     bottom: 2vw;
     right: 2vw;
@@ -308,6 +304,7 @@ footer{
 }
 
 header{
+    z-index: 1;
     background-color: #F6E8EA;
     text-align:center;
     margin: 4.7vw 4.7vw 0px 4.7vw;

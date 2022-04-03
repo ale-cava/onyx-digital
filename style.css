@@ -114,6 +114,14 @@
     font-weight: 600;
 }
 
+.animate{
+    transition: all 100ms ease-out;
+}
+
+.animate:hover{
+    transform: scale (1.04);
+}
+
 .imgIndex{
     width: 30%;
     height: 30%;

@@ -1,0 +1,46 @@
+@media screen and (max-width: 768px) {
+
+    .t1 p{
+        color: black;
+    }
+    
+    
+    }
+    
+@media screen and (max-width:768px) {
+    
+        .flexindex{
+            display: inline-block;
+        }
+        
+        .imgIndex{
+            width: 47%;
+            margin-left: 1vw;
+        }
+        
+        #uno{
+            display: none;
+        }
+    
+    
+        
+    }
+    
+    
+@media screen and (max-width:304px) {
+        
+        #dos{
+            display: none;
+        }
+    
+        .unav{
+            display: none;
+        }
+    
+        .logo img{
+            width: 20vw;
+            height: 20vw;
+        }
+    
+    
+    }

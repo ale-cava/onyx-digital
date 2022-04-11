@@ -13,6 +13,12 @@
     list-style: none;
 }
 
+$mapa: (
+    bg-color1: #F6E8EA,
+    bg-color2: #45364B,
+    emph-color: #bc47cb,
+);
+
 .carrousel{
     img{
     width: 40%;
@@ -133,7 +139,7 @@
 
 .emphasis{
     text-shadow: 0.2vw 0.2vw 0.3vw black;
-    color: #bc47cb;
+    color: map-get($mapa, emph-color);
 }
 
 
@@ -191,12 +197,12 @@
 }
 
 body {
-    background: linear-gradient(to bottom, #F6E8EA 26%, #45364B 0%);
+    background: linear-gradient(to bottom, map-get($mapa, bg-color1) 26%, map-get($mapa, bg-color2) 0%);
     font-family: 'Poppins', sans-serif;
 }
 
 a{
-    color: #bc47cb;
+    color: map-get($mapa, emph-color);
     text-shadow: 0.1vw 0.1vw 0.2vw #FFFFFF;
 }
 
@@ -207,7 +213,7 @@ a{
     p{
         font-size: 2vw;
         font-weight: 600;
-        color: black;
+        color: #DFECFF;
     }
 }
 
@@ -222,7 +228,7 @@ a{
     padding-left: 2vw;
     padding-right: 2vw;
     p{
-        color: darkgrey;
+        color: #DFECFF;
         font-size: 2.5vw;
     }
 }

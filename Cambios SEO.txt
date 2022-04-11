@@ -1,0 +1,4 @@
+Agregue meta description y keywords a todas las paginas
+Cambie los colores del texto del footer ya que generaban un mal contraste
+Reduje el tamano de las fotos
+Cambie los Title para que tengan informacion de la pagina

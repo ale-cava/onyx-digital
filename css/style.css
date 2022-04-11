@@ -101,9 +101,6 @@ header {
 }
 
 footer {
-  background-color: #45364B;
-  color: #EAC8CA;
-  margin: 0px 4.7vw 4.7vw 4.7vw;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -115,9 +112,15 @@ footer {
           align-items: center;
 }
 
+footer {
+  background-color: #45364B;
+  color: #EAC8CA;
+  margin: 0px 4.7vw 4.7vw 4.7vw;
+}
+
 .footerm p {
   font-size: 3vw;
-  color: black;
+  color: #DFECFF;
   margin-bottom: 2vw;
 }
 
@@ -144,7 +147,7 @@ footer {
 
 .footext li {
   font-size: 2.6vw;
-  color: black;
+  color: #DFECFF;
 }
 
 @-webkit-keyframes blink-caret {
@@ -420,7 +423,7 @@ a {
 .t1 p {
   font-size: 2vw;
   font-weight: 600;
-  color: black;
+  color: #DFECFF;
 }
 
 .vid1 {
@@ -436,7 +439,7 @@ a {
 }
 
 .bottomtext p {
-  color: darkgrey;
+  color: #DFECFF;
   font-size: 2.5vw;
 }
 

@@ -1,3 +1,10 @@
+@mixin hover($background-color, $color, $text-shadow, $box-shadow) {
+    background-color: $background-color;
+    color: $color;
+    text-shadow: $text-shadow;
+    box-shadow: $box-shadow;
+}
+
 header{
     z-index: 1;
     background-color: #F6E8EA;
@@ -14,10 +21,7 @@ header{
 }
 
 .anav a:hover{
-    background-color: #837476;
-    color: #FFFFFF;
-    text-shadow: black 0.1vw 0.1vw 0.2vw;
-    box-shadow: 0.3vw 0.3vw black;
+    @include hover(#837476,#FFFFFF , black 0.1vw 0.1vw 0.2vw , 0.3vw 0.3vw black)
 }
 
 .unav{

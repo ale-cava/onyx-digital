@@ -119,14 +119,14 @@ footer {
 }
 
 .footerm p {
-  font-size: 3vw;
+  font-size: 2vw;
   color: #DFECFF;
   margin-bottom: 2vw;
 }
 
 .footerm img {
-  width: 5vw;
-  height: 5vw;
+  width: 4vw;
+  height: 4vw;
 }
 
 .footimg {
@@ -136,8 +136,8 @@ footer {
 }
 
 .footimg img {
-  width: 30vw;
-  height: 30vw;
+  width: 28vw;
+  height: 28vw;
 }
 
 .footext {
@@ -146,7 +146,7 @@ footer {
 }
 
 .footext li {
-  font-size: 2.6vw;
+  font-size: 2vw;
   color: #DFECFF;
 }
 
@@ -184,15 +184,6 @@ footer {
   to {
     width: 100%;
   }
-}
-
-* {
-  margin: 0;
-  padding: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  text-decoration: none;
-  list-style: none;
 }
 
 .carrousel img {
@@ -454,6 +445,7 @@ main {
   border-bottom: 0.4vw solid black;
   border-right: 0.4vw solid black;
   text-align: center;
+  padding-bottom: 4.7vw;
 }
 
 .flexindex {
@@ -509,5 +501,14 @@ main {
 
 .c {
   grid-column: span 3;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
 }
 /*# sourceMappingURL=style.css.map */
